@@ -1,5 +1,5 @@
 
-##Prequisits for running the script:
+## Prequisits for running the script:
 
 download cognata tools
 
@@ -31,7 +31,7 @@ Please note that for the Acc the PositionCalc is a place holder and but the Acc_
 
 ## Running
 run the script
-python ScenarioGenerator.py -c <company-id> -u <user name> -p <password>
+python ScenarioGenerator.py -c \<company-id\> -u \<user name\> -p \<password\>
 
 where the company id is the prefix for the url
-https://<company-id>.cognata-studio.com/
+https://\<company-id\>.cognata-studio.com/
