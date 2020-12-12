@@ -29,10 +29,9 @@ $ pip install cognata-api-1.4.45.tar.gz
 
 Please note that for the Acc the PositionCalc is a place holder and but the Acc_generator is stil depend on it
 
-
-
-
-HOW-TO:
-Open the ScenarioGenerator and make sure you have the right log in info
-
+## Running
 run the script
+python ScenarioGenerator.py -c <company-id> -u <user name> -p <password>
+
+where the company id is the prefix for the url
+https://<company-id>.cognata-studio.com/
